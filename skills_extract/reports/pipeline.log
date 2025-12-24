@@ -1,0 +1,74 @@
+2025-12-24 22:36:33,732 - __main__ - INFO - ============================================================
+2025-12-24 22:36:33,732 - __main__ - INFO - Skills Extraction Pipeline Started
+2025-12-24 22:36:33,732 - __main__ - INFO - ============================================================
+2025-12-24 22:36:33,732 - __main__ - INFO - Configuration: ConfigLoader(
+  input_file='C:\Users\thann\Downloads\skills_extract\skills_extract\data\raw\job_descriptions.csv',
+  text_column='jd',
+  output_dir='data/processed'
+)
+2025-12-24 22:36:33,732 - __main__ - INFO - Step 1/5: Loading input data...
+2025-12-24 22:36:33,735 - src.data.input_handler - INFO - Loading CSV: C:\Users\thann\Downloads\skills_extract\skills_extract\data\raw\job_descriptions.csv (encoding: utf-8)
+2025-12-24 22:36:34,039 - src.data.input_handler - INFO - Loaded 7866 rows from CSV
+2025-12-24 22:36:34,039 - src.data.input_handler - INFO - Generated 7866 sequential IDs (prefix: jd)
+2025-12-24 22:36:34,039 - __main__ - INFO - Loaded 7866 records
+2025-12-24 22:36:34,039 - __main__ - INFO - Step 2/5: Preprocessing text...
+2025-12-24 22:36:34,076 - src.features.preprocessor - INFO - Loaded 38 abbreviation mappings
+2025-12-24 22:36:34,086 - src.features.preprocessor - WARNING - Skipped 181 rows with null/empty text. Sample IDs: ['jd_0069', 'jd_0142', 'jd_0166', 'jd_0177', 'jd_0185', 'jd_0186', 'jd_0220', 'jd_0265', 'jd_0301', 'jd_0313']
+2025-12-24 22:36:44,020 - src.features.preprocessor - INFO - Preprocessing complete: 7685 processed, 181 null, 0 empty
+2025-12-24 22:36:44,036 - __main__ - INFO - Step 3/5: Loading skill dictionaries...
+2025-12-24 22:36:44,127 - src.features.skill_dictionary - INFO - Loaded 374 unique skills: 270 technical, 104 soft, 0 custom
+2025-12-24 22:36:44,127 - __main__ - INFO - Step 4/5: Extracting skills...
+2025-12-24 22:36:44,145 - src.features.skill_extractor - INFO - Loaded variations for 41 skills
+2025-12-24 22:36:44,160 - src.features.skill_extractor - INFO - Extracting skills from 7685 records
+2025-12-24 22:36:58,745 - src.features.skill_extractor - INFO - Extraction complete: 83744 total skills, 10.9 avg per JD
+2025-12-24 22:36:58,745 - __main__ - INFO - Step 5/5: Writing outputs...
+2025-12-24 22:36:58,804 - src.data.output_handler - INFO - Wrote CSV output: data\processed\extracted_skills.csv
+2025-12-24 22:36:58,926 - src.data.output_handler - INFO - Wrote JSON output: data\processed\extracted_skills.json
+2025-12-24 22:36:58,938 - __main__ - INFO - ============================================================
+2025-12-24 22:36:58,938 - __main__ - INFO - ✅ Pipeline Complete!
+2025-12-24 22:36:58,938 - __main__ - INFO - ============================================================
+2025-12-24 22:36:58,938 - __main__ - INFO - Records processed: 7685
+2025-12-24 22:36:58,943 - __main__ - INFO - Records skipped (null/empty): 181
+2025-12-24 22:36:58,943 - __main__ - INFO - Total skills extracted: 83744
+2025-12-24 22:36:58,943 - __main__ - INFO - Unique skills found: 371
+2025-12-24 22:36:58,943 - __main__ - INFO - Average skills per JD: 10.9
+2025-12-24 22:36:58,943 - __main__ - INFO - Output files: {'csv': 'data\\processed\\extracted_skills.csv', 'json': 'data\\processed\\extracted_skills.json'}
+2025-12-24 22:39:21,688 - __main__ - INFO - ============================================================
+2025-12-24 22:39:21,688 - __main__ - INFO - Skills Extraction Pipeline Started
+2025-12-24 22:39:21,688 - __main__ - INFO - ============================================================
+2025-12-24 22:39:21,690 - __main__ - INFO - Configuration: ConfigLoader(
+  input_file='C:\Users\thann\Downloads\skills_extract\skills_extract\data\raw\job_descriptions.csv',
+  text_column='jd',
+  output_dir='data/processed'
+)
+2025-12-24 22:39:21,690 - __main__ - INFO - Step 1/5: Loading input data...
+2025-12-24 22:39:21,695 - src.data.input_handler - INFO - Loading CSV: C:\Users\thann\Downloads\skills_extract\skills_extract\data\raw\job_descriptions.csv (encoding: utf-8)
+2025-12-24 22:39:22,077 - src.data.input_handler - INFO - Loaded 7866 rows from CSV
+2025-12-24 22:39:22,077 - src.data.input_handler - INFO - Generated 7866 sequential IDs (prefix: jd)
+2025-12-24 22:39:22,077 - __main__ - INFO - Loaded 7866 records
+2025-12-24 22:39:22,077 - __main__ - INFO - Step 2/5: Preprocessing text...
+2025-12-24 22:39:22,085 - src.features.preprocessor - INFO - Loaded 38 abbreviation mappings
+2025-12-24 22:39:22,085 - src.features.preprocessor - WARNING - Skipped 181 rows with null/empty text. Sample IDs: ['jd_0069', 'jd_0142', 'jd_0166', 'jd_0177', 'jd_0185', 'jd_0186', 'jd_0220', 'jd_0265', 'jd_0301', 'jd_0313']
+2025-12-24 22:39:31,452 - src.features.preprocessor - INFO - Preprocessing complete: 7685 processed, 181 null, 0 empty
+2025-12-24 22:39:31,452 - __main__ - INFO - Step 3/5: Loading skill dictionaries...
+2025-12-24 22:39:31,452 - src.features.skill_dictionary - INFO - Loaded 374 unique skills: 270 technical, 104 soft, 0 custom
+2025-12-24 22:39:31,452 - __main__ - INFO - Step 4/5: Extracting skills...
+2025-12-24 22:39:31,469 - src.features.skill_extractor - INFO - Loaded variations for 41 skills
+2025-12-24 22:39:31,476 - src.features.skill_extractor - INFO - Extracting skills from 7685 records
+2025-12-24 22:39:45,992 - src.features.skill_extractor - INFO - Extraction complete: 83744 total skills, 10.9 avg per JD
+2025-12-24 22:39:45,994 - __main__ - INFO - Step 5/5: Writing outputs...
+2025-12-24 22:39:46,107 - src.data.output_handler - INFO - Wrote CSV output: data\processed\extracted_skills.csv
+2025-12-24 22:39:46,205 - src.data.output_handler - INFO - Wrote JSON output: data\processed\extracted_skills.json
+2025-12-24 22:39:46,205 - __main__ - INFO - Generating analytics...
+2025-12-24 22:39:46,241 - src.visualization.analytics_generator - INFO - Generated dataset analytics: reports\analytics\dataset_analytics.json
+2025-12-24 22:39:46,241 - src.features.aggregator - WARNING - Role column not found, aggregating as single group
+2025-12-24 22:39:46,261 - src.visualization.analytics_generator - INFO - Generated analytics for 1 roles
+2025-12-24 22:39:46,261 - __main__ - INFO - ============================================================
+2025-12-24 22:39:46,261 - __main__ - INFO - ✅ Pipeline Complete!
+2025-12-24 22:39:46,261 - __main__ - INFO - ============================================================
+2025-12-24 22:39:46,261 - __main__ - INFO - Records processed: 7685
+2025-12-24 22:39:46,261 - __main__ - INFO - Records skipped (null/empty): 181
+2025-12-24 22:39:46,261 - __main__ - INFO - Total skills extracted: 83744
+2025-12-24 22:39:46,261 - __main__ - INFO - Unique skills found: 371
+2025-12-24 22:39:46,261 - __main__ - INFO - Average skills per JD: 10.9
+2025-12-24 22:39:46,261 - __main__ - INFO - Output files: {'csv': 'data\\processed\\extracted_skills.csv', 'json': 'data\\processed\\extracted_skills.json', 'analytics': {'dataset': 'reports\\analytics\\dataset_analytics.json', 'roles': {'all': 'reports\\analytics\\role_analytics\\all.json'}}}
