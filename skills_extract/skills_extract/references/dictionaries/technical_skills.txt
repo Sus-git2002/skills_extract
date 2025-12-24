@@ -1,0 +1,328 @@
+# =============================================================================
+# Technical Skills Dictionary
+# =============================================================================
+# One skill per line. Lines starting with # are comments.
+# Skills are matched case-insensitively.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Programming Languages
+# -----------------------------------------------------------------------------
+Python
+Java
+JavaScript
+TypeScript
+C++
+C#
+Go
+Rust
+Ruby
+PHP
+Swift
+Kotlin
+Scala
+R
+MATLAB
+Perl
+Bash
+Shell
+PowerShell
+Groovy
+Lua
+Haskell
+Erlang
+Elixir
+Clojure
+F#
+Objective-C
+COBOL
+Fortran
+Assembly
+Dart
+Julia
+
+# -----------------------------------------------------------------------------
+# Web Frameworks & Libraries
+# -----------------------------------------------------------------------------
+React
+Angular
+Vue.js
+Svelte
+Next.js
+Nuxt.js
+Django
+Flask
+FastAPI
+Spring Boot
+Express.js
+Node.js
+Ruby on Rails
+Laravel
+ASP.NET
+.NET
+.NET Core
+jQuery
+Bootstrap
+Tailwind CSS
+Material UI
+Redux
+GraphQL
+REST API
+RESTful
+
+# -----------------------------------------------------------------------------
+# Data & Machine Learning
+# -----------------------------------------------------------------------------
+Machine Learning
+Deep Learning
+TensorFlow
+PyTorch
+Keras
+Scikit-learn
+Pandas
+NumPy
+SciPy
+Matplotlib
+Seaborn
+Jupyter
+Apache Spark
+PySpark
+Hadoop
+Hive
+Pig
+Airflow
+MLflow
+Kubeflow
+Computer Vision
+Natural Language Processing
+NLP
+Neural Networks
+CNN
+RNN
+LSTM
+Transformer
+BERT
+GPT
+LLM
+Data Mining
+Feature Engineering
+Model Training
+Model Deployment
+A/B Testing
+Statistical Analysis
+Data Visualization
+Tableau
+Power BI
+Looker
+Databricks
+Snowflake
+dbt
+
+# -----------------------------------------------------------------------------
+# Databases
+# -----------------------------------------------------------------------------
+SQL
+MySQL
+PostgreSQL
+MongoDB
+Redis
+Elasticsearch
+Oracle
+SQL Server
+SQLite
+MariaDB
+DynamoDB
+Cassandra
+Neo4j
+CouchDB
+Firebase
+Firestore
+InfluxDB
+TimescaleDB
+Memcached
+Amazon RDS
+Aurora
+Redshift
+BigQuery
+
+# -----------------------------------------------------------------------------
+# Cloud Platforms & Services
+# -----------------------------------------------------------------------------
+AWS
+Amazon Web Services
+Azure
+Google Cloud
+GCP
+Heroku
+DigitalOcean
+Cloudflare
+EC2
+S3
+Lambda
+API Gateway
+CloudFormation
+CloudWatch
+IAM
+VPC
+Route 53
+ECS
+EKS
+Fargate
+SQS
+SNS
+Kinesis
+Step Functions
+Glue
+Athena
+EMR
+SageMaker
+
+# -----------------------------------------------------------------------------
+# DevOps & Infrastructure
+# -----------------------------------------------------------------------------
+Docker
+Kubernetes
+Terraform
+Ansible
+Puppet
+Chef
+Jenkins
+GitHub Actions
+GitLab CI
+CircleCI
+Travis CI
+ArgoCD
+Helm
+Istio
+Prometheus
+Grafana
+ELK Stack
+Logstash
+Kibana
+Nginx
+Apache
+Linux
+Unix
+Windows Server
+VMware
+Vagrant
+Packer
+
+# -----------------------------------------------------------------------------
+# Version Control & Collaboration
+# -----------------------------------------------------------------------------
+Git
+GitHub
+GitLab
+Bitbucket
+SVN
+Mercurial
+Perforce
+
+# -----------------------------------------------------------------------------
+# API & Integration
+# -----------------------------------------------------------------------------
+REST
+SOAP
+gRPC
+WebSocket
+OAuth
+JWT
+OpenAPI
+Swagger
+Postman
+API Design
+Microservices
+Event-Driven
+Message Queue
+RabbitMQ
+Apache Kafka
+ActiveMQ
+Celery
+
+# -----------------------------------------------------------------------------
+# Testing
+# -----------------------------------------------------------------------------
+Unit Testing
+Integration Testing
+End-to-End Testing
+TDD
+BDD
+Jest
+Mocha
+Pytest
+JUnit
+Selenium
+Cypress
+Playwright
+TestNG
+Mockito
+Load Testing
+Performance Testing
+Security Testing
+
+# -----------------------------------------------------------------------------
+# Mobile Development
+# -----------------------------------------------------------------------------
+iOS
+Android
+React Native
+Flutter
+Xamarin
+SwiftUI
+Jetpack Compose
+Mobile Development
+App Development
+
+# -----------------------------------------------------------------------------
+# Security
+# -----------------------------------------------------------------------------
+Cybersecurity
+Information Security
+Network Security
+Application Security
+Penetration Testing
+Vulnerability Assessment
+OWASP
+Encryption
+SSL/TLS
+Firewall
+SIEM
+SOC
+Incident Response
+Threat Modeling
+Security Auditing
+
+# -----------------------------------------------------------------------------
+# Data Engineering
+# -----------------------------------------------------------------------------
+ETL
+ELT
+Data Pipeline
+Data Warehouse
+Data Lake
+Data Modeling
+Data Architecture
+Data Governance
+Data Quality
+Batch Processing
+Stream Processing
+Real-time Processing
+CDC
+Change Data Capture
+
+# -----------------------------------------------------------------------------
+# Agile & Project Management Tools
+# -----------------------------------------------------------------------------
+Jira
+Confluence
+Trello
+Asana
+Monday.com
+Notion
+Slack
+Microsoft Teams
+Agile
+Scrum
+Kanban
+SAFe

@@ -1,0 +1,218 @@
+# =============================================================================
+# Skill Variations Mapping
+# =============================================================================
+# Maps skill variations/abbreviations to canonical (standard) names.
+# Format:
+#   CanonicalName:
+#     - variation1
+#     - variation2
+#
+# When a variation is found in text, it will be normalized to the canonical name.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Programming Languages
+# -----------------------------------------------------------------------------
+JavaScript:
+  - JS
+  - Javascript
+  - java script
+  - ECMAScript
+  - ES6
+  - ES2015
+
+TypeScript:
+  - TS
+  - Typescript
+
+Python:
+  - python3
+  - python 3
+  - py
+
+C++:
+  - cpp
+  - cplusplus
+  - c plus plus
+
+C#:
+  - csharp
+  - c sharp
+
+# -----------------------------------------------------------------------------
+# Cloud & Infrastructure
+# -----------------------------------------------------------------------------
+Amazon Web Services:
+  - AWS
+  - amazon web services
+
+Google Cloud Platform:
+  - GCP
+  - Google Cloud
+  - google cloud platform
+
+Microsoft Azure:
+  - Azure
+  - MS Azure
+
+Kubernetes:
+  - K8s
+  - k8
+  - kube
+
+# -----------------------------------------------------------------------------
+# Data & ML
+# -----------------------------------------------------------------------------
+Machine Learning:
+  - ML
+  - machine-learning
+  - machinelearning
+
+Deep Learning:
+  - DL
+  - deep-learning
+  - deeplearning
+
+Artificial Intelligence:
+  - AI
+  - A.I.
+  - artificial-intelligence
+
+Natural Language Processing:
+  - NLP
+  - natural-language-processing
+
+Computer Vision:
+  - CV
+  - computer-vision
+
+Large Language Models:
+  - LLM
+  - LLMs
+  - large language model
+
+# -----------------------------------------------------------------------------
+# Databases
+# -----------------------------------------------------------------------------
+PostgreSQL:
+  - Postgres
+  - psql
+  - postgresql
+  - pg
+
+MongoDB:
+  - Mongo
+  - mongo db
+
+Elasticsearch:
+  - ES
+  - Elastic
+  - elastic search
+
+SQL Server:
+  - MSSQL
+  - MS SQL
+  - Microsoft SQL Server
+
+# -----------------------------------------------------------------------------
+# Web Frameworks
+# -----------------------------------------------------------------------------
+React.js:
+  - React
+  - ReactJS
+  - react.js
+
+Vue.js:
+  - Vue
+  - VueJS
+  - vue.js
+
+Angular.js:
+  - Angular
+  - AngularJS
+  - angular.js
+
+Node.js:
+  - Node
+  - NodeJS
+  - node.js
+
+Express.js:
+  - Express
+  - ExpressJS
+
+Next.js:
+  - Next
+  - NextJS
+
+# -----------------------------------------------------------------------------
+# DevOps & Tools
+# -----------------------------------------------------------------------------
+Continuous Integration:
+  - CI
+  - continuous-integration
+
+Continuous Deployment:
+  - CD
+  - continuous-deployment
+  - continuous delivery
+
+CI/CD:
+  - CICD
+  - CI-CD
+  - ci cd
+
+GitHub Actions:
+  - GHA
+  - github-actions
+
+Infrastructure as Code:
+  - IaC
+  - infrastructure-as-code
+
+# -----------------------------------------------------------------------------
+# Methodologies
+# -----------------------------------------------------------------------------
+Test-Driven Development:
+  - TDD
+  - test-driven-development
+
+Behavior-Driven Development:
+  - BDD
+  - behavior-driven-development
+
+Object-Oriented Programming:
+  - OOP
+  - object-oriented
+
+Application Programming Interface:
+  - API
+  - APIs
+
+# -----------------------------------------------------------------------------
+# Other Common Abbreviations
+# -----------------------------------------------------------------------------
+User Interface:
+  - UI
+  - user-interface
+
+User Experience:
+  - UX
+  - user-experience
+
+Software Development Kit:
+  - SDK
+
+Command Line Interface:
+  - CLI
+  - command-line
+
+Integrated Development Environment:
+  - IDE
+
+Version Control System:
+  - VCS
+  - version-control
+
+Operating System:
+  - OS
