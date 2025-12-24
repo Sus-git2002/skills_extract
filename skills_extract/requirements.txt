@@ -1,0 +1,35 @@
+# =============================================================================
+# Skills Extraction Pipeline - Dependencies
+# =============================================================================
+
+# Core data processing
+pandas>=2.0.0,<3.0.0
+
+# Configuration management
+pyyaml>=6.0,<7.0
+
+# NLP (optional, for future ML-based extraction)
+# spacy>=3.5.0,<4.0.0
+
+# Excel file support
+openpyxl>=3.1.0,<4.0.0
+
+# Encoding detection
+chardet>=5.0.0,<6.0.0
+
+# =============================================================================
+# Development Dependencies
+# =============================================================================
+
+# Testing
+pytest>=7.0.0,<8.0.0
+pytest-cov>=4.0.0
+
+# Code quality
+flake8>=6.0.0
+black>=23.0.0
+isort>=5.12.0
+
+# Documentation
+# sphinx>=6.0.0
+# sphinx-rtd-theme>=1.2.0

@@ -1,0 +1,53 @@
+# =============================================================================
+# Abbreviation Expansion Mappings
+# =============================================================================
+# Format: abbreviation: expansion
+# These are expanded during preprocessing to improve skill matching.
+#
+# NOTE: Do NOT include skill abbreviations here (like JS, ML, AWS).
+# Those should go in references/dictionaries/skill_variations.yaml instead.
+# =============================================================================
+
+# Business/Professional Terms
+mgmt: management
+mgr: manager
+sr: senior
+jr: junior
+assoc: associate
+dept: department
+exp: experience
+yrs: years
+yr: year
+req: required
+pref: preferred
+min: minimum
+max: maximum
+approx: approximately
+
+# Technical (non-skill) Terms
+db: database
+dev: development
+devt: development
+env: environment
+impl: implementation
+infra: infrastructure
+config: configuration
+auth: authentication
+admin: administration
+app: application
+apps: applications
+sys: system
+tech: technology
+info: information
+docs: documentation
+spec: specification
+specs: specifications
+
+# Job Description Terms
+resp: responsibilities
+qual: qualifications
+cert: certification
+certs: certifications
+edu: education
+bkgd: background
+w/: with
